@@ -15,6 +15,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('audi','audiController@index');
 
 Route::get('/players','PlayerController@index');
-
-
-
+Route::get('/players/{player}','PlayerController@show');

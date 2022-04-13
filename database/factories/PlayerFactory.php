@@ -9,5 +9,6 @@ $factory->define(Player::class, function (Faker $faker) {
     return [
         'name'           => $faker->name,
         'birth_date'     => $faker->date(),
+        'address_id'     => rand(1, 150)
     ];
 });
